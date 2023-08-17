@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Graficador de resistencias:</h1>
+      <form id="form">
+        <div>
+          <input
+            id="valueResistence"
+            type="text"
+            placeholder="Valor de la resistencia"
+          />
+          <select name="" id="">
+            <option value="D" selected>Dorado</option>
+            <option value="P">Plata</option>
+          </select>
+        </div>
+        <div>
+          <button type="submit" id="btn">Calcular</button>
+        </div>
+      </form>
+    </header>
+    <section class="container">
+      <div class="text-resultado">
+        <p class="text">Resultado</p>
+      </div>
+      <div class="container-resultado">
+        <img src="img/resistencia.png" id="imgResistence" alt="" srcset="" />
+        <div class="band default" id="first-band"></div>
+        <div class="band default" id="second-band"></div>
+        <div class="band default" id="third-band"></div>
+        <div class="band default" id="fourth-band"></div>
+      </div>
+    </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>

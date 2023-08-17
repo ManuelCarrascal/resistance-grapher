@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+#valueResistence {
+  padding: 10px 10px;
+  border-radius: 0.25rem;
+}
+#btn {
+  padding: 7px 15px;
+}
+
+#imgResistence {
+  width: 300px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.container-resultado {
+  padding: 10px;
+  position: relative;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#first-band {
+  position: absolute;
+  top: 19px;
+  left: -38px;
+  width: 14px;
+  height: 77px;
+}
+#second-band {
+  position: absolute;
+  top: 29px;
+  left: 5px;
+  width: 14px;
+  height: 57px;
+}
+#third-band {
+  position: absolute;
+  top: 29px;
+  left: 80px;
+  width: 14px;
+  height: 57px;
+}
+#fourth-band {
+  position: absolute;
+  top: 19px;
+  left: 185px;
+  width: 14px;
+  height: 76px;
+}
+.text {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.default {
+  background-color: rgba(128, 128, 128, 0.308);
+}
+
+.red {
+  background-color: red;
+}
+.black {
+  background-color: black;
+}
+.brown {
+  background-color: #512627;
+}
+
+.orange {
+  background-color: #d87347;
+}
+
+.yellow {
+  background-color: #fef501;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.violet {
+  background-color: violet;
+}
+
+.gray {
+  background-color: gray;
+}
+
+.white {
+  background-color: white;
+}
+
+.gold {
+  background-color: gold;
+}
+
+.silver {
+  background-color: silver;
+}
