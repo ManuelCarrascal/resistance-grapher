@@ -1,56 +1,56 @@
 * {
-  margin: 0;
-  padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 body {
+  align-items: center;
+  background-color: #eeeeee;
   display: flex;
   flex-direction: column;
-  align-items: center;
   height: 100vh;
-  background-color: #eeeeee;
 }
 
 .header {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
 }
 
 #form {
+  align-items: center;
   display: flex;
   flex-direction: column;
   width: 100%;
-  align-items: center;
 }
 
 #valueResistence {
-  padding: 10px 10px;
   border-radius: 0.25rem;
+  padding: 10px 10px;
 }
 
 .container-btn {
   display: flex;
   justify-content: center;
-  width: 100%;
   margin-top: 20px;
+  width: 100%;
 }
 
 #btn {
+  font-size: 19px;
+  font-weight: bold;
   padding: 7px 15px;
   width: 63.5%;
-  font-weight: bold;
-  font-size: 19px;
 }
 
 #btn:hover {
   background-color: #1e1e1e;
   color: white;
-  transition: 0.3s;
   cursor: pointer;
+  transition: 0.3s;
 }
 
 #imgResistence {
@@ -58,50 +58,50 @@ body {
 }
 
 .container {
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   margin-top: 20px;
 }
 
 .container-resultado {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
   padding: 10px;
   position: relative;
   width: 50%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-top: 20px;
 }
 
 #first-band {
+  height: 77px;
+  left: -38px;
   position: absolute;
   top: 19px;
-  left: -38px;
   width: 14px;
-  height: 77px;
 }
 #second-band {
+  height: 57px;
+  left: 5px;
   position: absolute;
   top: 29px;
-  left: 5px;
   width: 14px;
-  height: 57px;
 }
 #third-band {
+  height: 57px;
+  left: 80px;
   position: absolute;
   top: 29px;
-  left: 80px;
   width: 14px;
-  height: 57px;
 }
 #fourth-band {
+  height: 76px;
+  left: 185px;
   position: absolute;
   top: 19px;
-  left: 185px;
   width: 14px;
-  height: 76px;
 }
 .text {
   font-size: 20px;
@@ -114,6 +114,7 @@ body {
 
 #tolerance {
   height: 100%;
+  border-radius: 0.25rem;
 }
 
 .gold {
@@ -130,10 +131,98 @@ option {
 
 #title {
   font-size: 35px;
-  text-align: center;
   margin: 28px 0;
+  text-align: center;
 }
 
-/* app que en base a los datos que ingrese 
+@media (min-width: 768px) and (max-width: 1024px) {
+  #imgResistence {
+    width: 550px;
+  }
+  #first-band {
+    height: 141px;
+    left: -70px;
+    position: absolute;
+    top: 28px;
+    width: 18px;
+  }
+  #second-band {
+    height: 103px;
+    left: -5px;
+    position: absolute;
+    top: 45px;
+    width: 18px;
+  }
+  #third-band {
+    height: 103px;
+    left: 150px;
+    position: absolute;
+    top: 45px;
+    width: 18px;
+  }
+  #fourth-band {
+    height: 140px;
+    left: 340px;
+    position: absolute;
+    top: 26px;
+    width: 18px;
+  }
+  #valueResistence {
+    font-size: 20px;
+    height: 80px;
+  }
+  #tolerance {
+    height: 80px;
+    font-size: 20px;
+  }
+  .text {
+    font-size: 35px;
+  }
+}
+
+@media (min-width: 1025px) {
+  #imgResistence {
+    width: 550px;
+  }
+  #first-band {
+    height: 141px;
+    left: -70px;
+    position: absolute;
+    top: 28px;
+    width: 18px;
+  }
+  #second-band {
+    height: 103px;
+    left: -5px;
+    position: absolute;
+    top: 45px;
+    width: 18px;
+  }
+  #third-band {
+    height: 103px;
+    left: 150px;
+    position: absolute;
+    top: 45px;
+    width: 18px;
+  }
+  #fourth-band {
+    height: 140px;
+    left: 340px;
+    position: absolute;
+    top: 26px;
+    width: 18px;
+  }
+  #valueResistence {
+    font-size: 20px;
+    height: 80px;
+  }
+  #tolerance {
+    height: 80px;
+    font-size: 20px;
+  }
+  .text {
+    font-size: 35px;
+  }
+} /* app que en base a los datos que ingrese 
 el usuario le permita de forma grafica ver que resistencia 
 corresponde al valor ingresado. */

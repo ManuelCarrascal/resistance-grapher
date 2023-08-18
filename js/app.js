@@ -11,6 +11,19 @@ resistanceInput.addEventListener('input', handleResistanceInput);
 form.addEventListener('submit', handleFormSubmit);
 toleranceInput.addEventListener('change', handleToleranceChange);
 
+resistanceInput.addEventListener('keydown', (event) => {
+  const key = event.key;
+  if ((isNaN(key) || key === ' ') && key !== 'Backspace' && key !== 'Delete') {
+    event.preventDefault();
+  }
+});
+
+resistanceInput.addEventListener('blur', (event) => {
+  const value = event.target.value.trim().replace(/[^0-9]/g, '');
+  const parsedValue = parseInt(value);
+  event.target.value = isNaN(parsedValue) ? '' : Math.round(parsedValue);
+});
+
 function handleResistanceInput(event) {
   const value = event.target.value.trim().replace(/[^0-9]/g, '');
   if (parseInt(value) > 10000000000) {
