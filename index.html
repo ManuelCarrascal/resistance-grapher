@@ -8,7 +8,7 @@
   </head>
   <body>
     <header class="header">
-      <h1>Graficador de resistencias:</h1>
+      <h1 id="title">Graficador de resistencias</h1>
       <form id="form">
         <div>
           <input
@@ -16,13 +16,11 @@
             type="text"
             placeholder="Valor de la resistencia"
           />
-          <select name="" id="">
-            <option value="D" selected>Dorado</option>
-            <option value="P">Plata</option>
+          <select name="" id="tolerance">
+            <option value="" selected disabled>Tolerancia</option>
+            <option value="5">5%</option>
+            <option value="10">10%</option>
           </select>
-        </div>
-        <div>
-          <button type="submit" id="btn">Calcular</button>
         </div>
       </form>
     </header>
@@ -39,6 +37,6 @@
       </div>
     </section>
 
-    <script src="js/app.js"></script>
+    <script src="js/app.js" type="module"></script>
   </body>
 </html>
