@@ -29,20 +29,20 @@ body {
 
 #valueResistence {
   border-radius: 0.25rem;
-  padding: 10px 10px;
+  padding: 0.625rem 0.625rem;
 }
 
 .container-btn {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
   width: 100%;
 }
 
 #btn {
-  font-size: 19px;
+  font-size: 1.1875rem;
   font-weight: bold;
-  padding: 7px 15px;
+  padding: 0.4375rem 0.9375rem;
   width: 63.5%;
 }
 
@@ -54,7 +54,7 @@ body {
 }
 
 #imgResistence {
-  width: 300px;
+  width: 18.75rem;
 }
 
 .container {
@@ -62,49 +62,49 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-top: 20px;
+  margin-top: 1.25rem;
 }
 
 .container-resultado {
   align-items: center;
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
-  padding: 10px;
+  margin-top: 1.25rem;
+  padding: 0.625rem;
   position: relative;
   width: 50%;
 }
 
 #first-band {
-  height: 77px;
-  left: -38px;
+  height: 4.8125rem;
+  left: -2.375rem;
   position: absolute;
-  top: 19px;
-  width: 14px;
+  top: 1.1875rem;
+  width: 0.875rem;
 }
 #second-band {
-  height: 57px;
-  left: 5px;
+  height: 3.5625rem;
+  left: 0.3125rem;
   position: absolute;
-  top: 29px;
-  width: 14px;
+  top: 1.8125rem;
+  width: 0.875rem;
 }
 #third-band {
-  height: 57px;
-  left: 80px;
+  height: 3.5625rem;
+  left: 5rem;
   position: absolute;
-  top: 29px;
-  width: 14px;
+  top: 1.8125rem;
+  width: 0.875rem;
 }
 #fourth-band {
-  height: 76px;
-  left: 185px;
+  height: 4.75rem;
+  left: 11.5625rem;
   position: absolute;
-  top: 19px;
-  width: 14px;
+  top: 1.1875rem;
+  width: 0.875rem;
 }
 .text {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: bold;
 }
 
@@ -130,98 +130,98 @@ option {
 }
 
 #title {
-  font-size: 35px;
-  margin: 28px 0;
+  font-size: 2.1875rem;
+  margin: 1.75rem 0;
   text-align: center;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
   #imgResistence {
-    width: 550px;
+    width: 34.375rem;
   }
   #first-band {
-    height: 141px;
-    left: -70px;
+    height: 8.8125rem;
+    left: -4.375rem;
     position: absolute;
-    top: 28px;
-    width: 18px;
+    top: 1.75rem;
+    width: 1.125rem;
   }
   #second-band {
-    height: 103px;
-    left: -5px;
+    height: 6.4375rem;
+    left: -0.3125rem;
     position: absolute;
-    top: 45px;
-    width: 18px;
+    top: 2.8125rem;
+    width: 1.125rem;
   }
   #third-band {
-    height: 103px;
-    left: 150px;
+    height: 6.4375rem;
+    left: 9.375rem;
     position: absolute;
-    top: 45px;
-    width: 18px;
+    top: 2.8125rem;
+    width: 1.125rem;
   }
   #fourth-band {
-    height: 140px;
-    left: 340px;
+    height: 8.75rem;
+    left: 21.25rem;
     position: absolute;
-    top: 26px;
-    width: 18px;
+    top: 1.625rem;
+    width: 1.125rem;
   }
   #valueResistence {
-    font-size: 20px;
-    height: 80px;
+    font-size: 1.25rem;
+    height: 5rem;
   }
   #tolerance {
-    height: 80px;
-    font-size: 20px;
+    height: 5rem;
+    font-size: 1.25rem;
   }
   .text {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 }
 
 @media (min-width: 1025px) {
   #imgResistence {
-    width: 550px;
+    width: 34.375rem;
   }
   #first-band {
-    height: 141px;
-    left: -70px;
+    height: 8.8125rem;
+    left: -4.375rem;
     position: absolute;
-    top: 28px;
-    width: 18px;
+    top: 1.75rem;
+    width: 1.125rem;
   }
   #second-band {
-    height: 103px;
-    left: -5px;
+    height: 6.4375rem;
+    left: -0.3125rem;
     position: absolute;
-    top: 45px;
-    width: 18px;
+    top: 2.8125rem;
+    width: 1.125rem;
   }
   #third-band {
-    height: 103px;
-    left: 150px;
+    height: 6.4375rem;
+    left: 9.375rem;
     position: absolute;
-    top: 45px;
-    width: 18px;
+    top: 2.8125rem;
+    width: 1.125rem;
   }
   #fourth-band {
-    height: 140px;
-    left: 340px;
+    height: 8.75rem;
+    left: 21.25rem;
     position: absolute;
-    top: 26px;
-    width: 18px;
+    top: 1.625rem;
+    width: 1.125rem;
   }
   #valueResistence {
-    font-size: 20px;
-    height: 80px;
+    font-size: 1.25rem;
+    height: 5rem;
   }
   #tolerance {
-    height: 80px;
-    font-size: 20px;
+    height: 5rem;
+    font-size: 1.25rem;
   }
   .text {
-    font-size: 35px;
+    font-size: 2.1875rem;
   }
 } /* app que en base a los datos que ingrese 
 el usuario le permita de forma grafica ver que resistencia 
