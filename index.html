@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header class="header">
+    <header class="main-header">
       <h1 id="title">Graficador de resistencias</h1>
-      <form id="form">
+      <form id="resistance-form">
         <div>
           <input
             id="valueResistence"
@@ -25,15 +31,15 @@
       </form>
     </header>
     <section class="container">
-      <div class="text-resultado">
+      <div class="result-text">
         <p class="text">Resultado</p>
       </div>
       <div class="container-resultado">
         <img src="img/resistencia.png" id="imgResistence" alt="" srcset="" />
-        <div class="band default" id="first-band"></div>
-        <div class="band default" id="second-band"></div>
-        <div class="band default" id="third-band"></div>
-        <div class="band default" id="fourth-band"></div>
+        <div class="band resistance-band" id="first-band"></div>
+        <div class="band resistance-band" id="second-band"></div>
+        <div class="band resistance-band" id="third-band"></div>
+        <div class="band resistance-band" id="fourth-band"></div>
       </div>
     </section>
 

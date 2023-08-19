@@ -7,20 +7,20 @@
 
 body {
   align-items: center;
-  background-color: #eeeeee;
   display: flex;
   flex-direction: column;
   height: 100vh;
+  background-color: #f0f0f0;
 }
 
-.header {
+.main-header {
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-#form {
+#resistance-form {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -30,6 +30,12 @@ body {
 #valueResistence {
   border-radius: 0.25rem;
   padding: 0.625rem 0.625rem;
+  border: 1px solid #e6e6e6f7;
+  background-color: #f7f7f7;
+}
+
+#valueResistence::placeholder {
+  color: #2a2a2a;
 }
 
 .container-btn {
@@ -106,15 +112,21 @@ body {
 .text {
   font-size: 1.25rem;
   font-weight: bold;
+  font-family: 'Oswald', sans-serif;
+  color: #3fb4b2;
 }
 
-.default {
+.resistance-band {
   background-color: #8080804f;
 }
 
 #tolerance {
   height: 100%;
   border-radius: 0.25rem;
+  background: rgb(253, 165, 49);
+  padding: 0px 0.625rem;
+  background-color: rgb(247, 247, 247);
+  border: 1px solid #e6e6e6f7;
 }
 
 .gold {
@@ -133,6 +145,8 @@ option {
   font-size: 2.1875rem;
   margin: 1.75rem 0;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+  color: #3fb4b2;
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {

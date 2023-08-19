@@ -2,7 +2,7 @@ import { calculateColorBands } from './resistance.js';
 import { calculateTolerance } from './tolerance.js';
 
 const resistanceInput = document.querySelector('#valueResistence');
-const form = document.querySelector('#form');
+const form = document.querySelector('#resistance-form');
 const toleranceInput = document.querySelector('#tolerance');
 const [firstBand, secondBand, thirdBand, fourthBand] =
   document.querySelectorAll('.band');
