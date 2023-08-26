@@ -27,14 +27,14 @@ body {
   width: 100%;
 }
 
-#valueResistence {
+#resistance-value {
   border-radius: 0.25rem;
   padding: 0.625rem 0.625rem;
   border: 1px solid #e6e6e6f7;
   background-color: #f7f7f7;
 }
 
-#valueResistence::placeholder {
+#resistance-value::placeholder {
   color: #2a2a2a;
 }
 
@@ -63,7 +63,7 @@ body {
   width: 18.75rem;
 }
 
-.container {
+.resistance-container {
   align-items: center;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@ body {
   top: 1.1875rem;
   width: 0.875rem;
 }
-.text {
+.result-text {
   font-size: 1.25rem;
   font-weight: bold;
   font-family: 'Oswald', sans-serif;
@@ -181,7 +181,7 @@ option {
     top: 1.625rem;
     width: 1.125rem;
   }
-  #valueResistence {
+  #resistance-value {
     font-size: 1.25rem;
     height: 5rem;
   }
@@ -189,7 +189,7 @@ option {
     height: 5rem;
     font-size: 1.25rem;
   }
-  .text {
+  .result-text {
     font-size: 2.1875rem;
   }
 }
@@ -202,7 +202,7 @@ option {
     height: 8.8125rem;
     left: -4.375rem;
     position: absolute;
-    top: 1.75rem;
+    top: 1.69rem;
     width: 1.125rem;
   }
   #second-band {
@@ -226,7 +226,7 @@ option {
     top: 1.625rem;
     width: 1.125rem;
   }
-  #valueResistence {
+  #resistance-value {
     font-size: 1.25rem;
     height: 5rem;
   }
@@ -234,7 +234,7 @@ option {
     height: 5rem;
     font-size: 1.25rem;
   }
-  .text {
+  .result-text {
     font-size: 2.1875rem;
   }
 } /* app que en base a los datos que ingrese 

@@ -1,7 +1,7 @@
 import { calculateColorBands } from './resistance.js';
 import { calculateTolerance } from './tolerance.js';
 
-const resistanceInput = document.querySelector('#valueResistence');
+const resistanceInput = document.querySelector('#resistance-value');
 const form = document.querySelector('#resistance-form');
 const toleranceInput = document.querySelector('#tolerance');
 const [firstBand, secondBand, thirdBand, fourthBand] =
@@ -26,8 +26,8 @@ resistanceInput.addEventListener('blur', (event) => {
 
 function handleResistanceInput(event) {
   const value = event.target.value.trim().replace(/[^0-9]/g, '');
-  if (parseInt(value) > 10000000000) {
-    event.target.value = '10000000000';
+  if (parseInt(value) > 99999999999) {
+    event.target.value = '99999999999';
   }
   const resistanceValue = resistanceInput.value;
   if (resistanceValue === '') {

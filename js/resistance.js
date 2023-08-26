@@ -36,7 +36,7 @@ function calculateColorBands(
 function calculateMultiplier(resistanceValue, thirdBand) {
   const resistance = parseInt(resistanceValue);
   const color = RESISTANCE_COLORS.find(
-    (color, index) => resistance < Math.pow(10, index + 1)
+    (color, index) => resistance < Math.pow(10, index + 2)
   );
   setColorBandMultiplier(color, thirdBand);
 }
