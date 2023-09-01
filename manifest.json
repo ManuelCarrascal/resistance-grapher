@@ -2,7 +2,7 @@
   "name": "Resistance-Grapher",
   "short_name": "RG",
   "description": "Resistance Grapher App",
-  "start_url": "/index.html",
+  "start_url": "https://manuelcarrascal.github.io/resistance-grapher/",
   "display": "standalone",
   "background_color": "#f0f0f0",
   "theme_color": "#f0f0f0",
