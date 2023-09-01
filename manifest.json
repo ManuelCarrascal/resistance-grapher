@@ -1,0 +1,65 @@
+{
+  "name": "Resistance-Grapher",
+  "short_name": "RG",
+  "description": "Resistance Grapher App",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#f0f0f0",
+  "theme_color": "#f0f0f0",
+  "orientation": "portrait",
+  "icons":[
+    {
+      "src":"./img/icons/icon-72.webp",
+      "sizes":"72x72",
+      "type":"image/webp"
+      
+    },
+    {
+      "src":"./img/icons/icon-120.webp",
+      "sizes":"120x120",
+      "type":"image/webp"
+      
+    },
+    {
+      "src": "./img/icons/icon-128.webp",
+      "sizes": "128x128",
+      "type": "image/webp"
+      
+    },
+    {
+      "src": "./img/icons/icon-144.webp",
+      "sizes": "144x144",
+      "type": "image/webp"
+    },
+    {
+      "src": "./img/icons/icon-152.webp",
+      "sizes": "152x152",
+      "type": "image/webp"
+      
+    },
+    {
+      "src": "./img/icons/icon-196.webp",
+      "sizes": "196x196",
+      "type": "image/webp",
+      "purpose": "maskable"
+      
+    },
+    
+    {
+      "src": "./img/icons/icon-256.webp",
+      "sizes": "256x256",  
+      "type": "image/webp"
+    },
+    {
+      "src": "./img/icons/icon-512.webp",
+      "sizes": "512x512",  
+      "type": "image/webp"
+     
+    },
+    {
+      "src": "./img/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

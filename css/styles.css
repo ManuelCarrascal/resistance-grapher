@@ -61,6 +61,7 @@ body {
 
 #imgResistence {
   width: 18.75rem;
+  object-fit: contain;
 }
 
 .resistance-container {
@@ -149,6 +150,9 @@ option {
   color: #3fb4b2;
 }
 
+.text-center {
+  text-align: center;
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   #imgResistence {
     width: 34.375rem;
@@ -237,6 +241,4 @@ option {
   .result-text {
     font-size: 2.1875rem;
   }
-} /* app que en base a los datos que ingrese 
-el usuario le permita de forma grafica ver que resistencia 
-corresponde al valor ingresado. */
+}
