@@ -25,12 +25,19 @@ function calculateColorBands(
   const [firstDigit, secondDigit] = convertIntoDigits(resistanceValue).map(
     (digit) => parseInt(digit)
   );
-  firstBand.style.backgroundColor = RESISTANCE_COLORS[firstDigit];
-  secondBand.style.backgroundColor =
-    firstDigit === 0
-      ? RESISTANCE_COLORS[firstDigit]
-      : RESISTANCE_COLORS[secondDigit];
-  calculateMultiplier(resistanceValue, thirdBand);
+  if (parseInt(resistanceValue) < 10) {
+    firstBand.style.backgroundColor = RESISTANCE_COLORS[0];
+    thirdBand.style.backgroundColor = RESISTANCE_COLORS[0];
+    secondBand.style.backgroundColor =
+      RESISTANCE_COLORS[parseInt(resistanceValue)];
+  } else {
+    firstBand.style.backgroundColor = RESISTANCE_COLORS[firstDigit];
+    secondBand.style.backgroundColor =
+      firstDigit === 0
+        ? RESISTANCE_COLORS[firstDigit]
+        : RESISTANCE_COLORS[secondDigit];
+    calculateMultiplier(resistanceValue, thirdBand);
+  }
 }
 
 function calculateMultiplier(resistanceValue, thirdBand) {
